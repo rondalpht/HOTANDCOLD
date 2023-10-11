@@ -15,8 +15,28 @@
     <h2>How to play:</h2>
     <p>Enter a number below and depending on how hot or cold
         it is you'll get a response</p>
-    <button>click here</button>
+        <p>Pick a number between 1 and 100</p>
+        <input type="number" id="num" placeholder="50">
+        <button>commit</button>
+        <button id="reset">reset</button>
+        <button id="add1">add1</button>
+        <button id="add5">add5</button>
+        <button id="add10">add10</button>
+        <button id="add25">add25</button>
+        <button id="sub1">sub1</button>
+        <button id="sub5">sub5</button>
+        <button id="sub10">sub10</button>
+        <button id="sub25">sub25</button>
     <p id="answer"></p>
+    <p>number of guess left:<span id="guesses">5</span></p>
+    <p id="cguess">Current guess:50</p>
+    <table>
+        <tr>
+            <th id="pguess">Previous guesses</th>
+            <th id="ptemp">Previous temperature</th>
+        </tr>
+    </table> 
 </body>
+
 </html>
 
